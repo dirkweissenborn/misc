@@ -1,3 +1,5 @@
+set mouse=a
+
 "vundle
 set nocompatible
 filetype off
@@ -147,3 +149,5 @@ set t_Co=256
 
 " pydiction location
 let g:pydiction_location = '~/.vim/bundle/Pydiction/complete-dict'
+let g:syntastic_python_checkers=['flake8']
+let g:syntastic_python_flake8_args='--ignore=E501,E225'
