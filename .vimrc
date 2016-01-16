@@ -21,7 +21,7 @@ Plugin 'suan/vim-instant-markdown'
 Plugin 'nelstrom/vim-markdown-preview'
 "python sytax checker
 Plugin 'nvie/vim-flake8'
-Plugin 'vim-scripts/Pydiction'
+"Plugin 'vim-scripts/Pydiction'
 Plugin 'vim-scripts/indentpython.vim'
 Plugin 'scrooloose/syntastic'
 
@@ -144,3 +144,6 @@ set laststatus=2
 "
 " Use 256 colours (Use this setting only if your terminal supports 256 colours)
 set t_Co=256
+
+" pydiction location
+let g:pydiction_location = '~/.vim/bundle/Pydiction/complete-dict'
